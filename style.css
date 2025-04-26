@@ -1,0 +1,248 @@
+html {
+  font-family: helvetica;
+  background-color: #141414;
+}
+
+.container {
+  max-width: 1100px;
+  background-color: #f5f2f2;
+  border-radius: 8px;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 50px;
+}
+.titulo-banda{
+  background-color:black ;
+  color: white;
+  padding: 20px;
+}
+.span {
+  font-weight: bold;
+}
+.header {
+  text-align: center;
+}
+.titulo-header {
+  color: rgb(2, 82, 51);
+  font-size: 40px;
+}
+.paragrafo-header {
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  color: rgb(2, 82, 51);
+
+}
+.figura {
+  text-align: center;
+}
+/* biografia */
+.biografia {
+  padding: 25px 0;
+  margin: 25px 0;
+ 
+}
+p {
+  text-align: center;
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.5;
+overflow: hidden;
+  color: rgb(19, 56, 63);
+}
+h2 {
+    color:black;
+}
+figcaption {
+  color: rgb(19, 56, 63);
+}
+/* parte 2 */
+.container-citacao {
+  background-color: #ddd;
+  padding: 30px;
+}
+.container-citacao {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+}
+.container-citacao {
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 50%;
+}
+span {
+  font-weight: bold;
+}
+/* curiosidade-container */
+.curiosidade-banda {
+
+  height: 30px;
+}
+/* curiosidades */
+.curiosidades-banda {
+ 
+   
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+.curiosidades{
+    color: rgb(19, 56, 63);
+   
+}
+.container-citacao li {
+  height: 30px;
+}
+.frase-efeito{
+    
+    background-color: #ddd;
+
+
+
+    
+
+}
+
+.frase-efeito {
+    padding: 20px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+  }
+  .efeito{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  .discos-vendidos p{
+    padding: 20px;
+        background-color: #ddd;
+    
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    
+  }
+
+/* imagem bold */
+.img-bold {
+  font-weight: bold;
+  text-align: center;
+}
+li {
+  color: rgb(117, 20, 3);
+  list-style-type: none;
+}
+
+a {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+a:hover {
+  color: royalblue;
+  transition: 2.4s;
+}
+.wikipedia a {
+
+   justify-content: center;
+  
+   width: 120px;
+
+}
+
+.wikipedia h2, p{
+    text-align: center;
+}
+/* Para telas menores que 768px (tablets e alguns celulares maiores) */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 95%; /* Aumenta a largura para ocupar mais espaço */
+    padding: 15px 30px; /* Reduz o padding */
+    margin: 20px auto; /* Reduz a margem superior e inferior */
+  }
+
+  .titulo-header {
+    font-size: 30px; /* Reduz o tamanho da fonte */
+  }
+
+  .paragrafo-header {
+    margin-top: 20px; /* Reduz a margem */
+    font-size: 16px; /* Reduz o tamanho da fonte */
+  }
+
+  /* Se a imagem ficar muito grande, você pode ajustar o max-width */
+  img {
+    max-width: 80%;
+  }
+
+  .container-citacao {
+    font-size: 18px; /* Reduz o tamanho da fonte */
+    padding: 20px; /* Reduz o padding */
+  }
+
+  .efeito {
+    font-size: 24px; /* Reduz o tamanho da fonte */
+  }
+
+  .wikipedia a {
+    width: 100%; /* O botão ocupar a largura total */
+    margin-bottom: 10px; /* Adiciona um pouco de espaço abaixo */
+  }
+
+  .wikipedia h2 {
+    font-size: 20px; /* Reduz o tamanho da fonte */
+  }
+
+  p, li, figcaption {
+    font-size: 14px; /* Reduz o tamanho da fonte */
+  }
+
+  a {
+    padding: 12px 24px; /* Reduz o padding do link */
+    font-size: 14px; /* Reduz o tamanho da fonte do link */
+  }
+}
+
+/* Para telas menores que 480px (celulares menores) */
+@media screen and (max-width: 480px) {
+  .titulo-header {
+    font-size: 24px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  .paragrafo-header {
+    font-size: 14px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  .container-citacao {
+    font-size: 16px; /* Reduz ainda mais o tamanho da fonte */
+    padding: 15px; /* Reduz ainda mais o padding */
+  }
+
+  .efeito {
+    font-size: 20px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  p, li, figcaption {
+    font-size: 12px; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  /* Seções que podem precisar de ajustes adicionais no layout para telas pequenas */
+  .biografia, .curiosidades-banda, .frase-efeito, .discos-vendidos {
+    padding: 15px 0; /* Reduz o padding vertical */
+    margin: 15px 0; /* Reduz a margem vertical */
+  }
+}
